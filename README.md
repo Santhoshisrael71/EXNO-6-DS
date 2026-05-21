@@ -19,6 +19,7 @@ STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
  Include the necessary coding and corresponding screenshots
+ 
 ```
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -32,6 +33,7 @@ sns.lineplot(x=x, y=y)
 plt.title("Line Graph Using Seaborn")
 plt.show()
 ```
+
 <img width="534" height="433" alt="download" src="https://github.com/user-attachments/assets/e6e49032-f32d-4e97-9a2f-fde32061dae5" />
 
 ```
@@ -50,7 +52,9 @@ plt.ylabel("Y Label")
 plt.show()
 
 ```
+
 <img width="554" height="453" alt="download" src="https://github.com/user-attachments/assets/c3644077-420b-4966-91b8-3fd44d0e659c" />
+
 ```
 tips = sns.load_dataset("tips")
 
@@ -61,7 +65,9 @@ plt.ylabel("Total Bill")
 plt.title("Total Bill by Day and Gender")
 plt.show()
 ```
+
 <img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/8585e571-29f5-4c8b-bc5f-00c6e38abc8a" />
+
 
 ```
 sns.scatterplot(
@@ -76,6 +82,7 @@ plt.ylabel("Tip Amount")
 plt.title("Scatter Plot")
 plt.show()
 ```
+
 <img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/c36e14ce-b5dc-4132-9a9b-086f37e6b30a" />
 
 ```
@@ -89,7 +96,9 @@ plt.title("Histogram")
 plt.show()
 
 ```
+
 <img width="572" height="433" alt="download" src="https://github.com/user-attachments/assets/b80be070-f064-4662-95f2-36ec85a89fb0" />
+
 ```
 np.random.seed(0)
 
@@ -111,6 +120,7 @@ plt.title("Histogram of Student Marks")
 plt.show()
 
 ```
+
 <img width="576" height="453" alt="download" src="https://github.com/user-attachments/assets/ba8d9c77-f9f7-487e-8a18-8451d6027a0f" />
 
 ```
@@ -125,6 +135,7 @@ plt.title("Box Plot")
 plt.show()
 
 ```
+
 <img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/deec0c45-6c69-4e59-8b1f-e404c01a8c2b" />
 
 ```
@@ -141,6 +152,7 @@ plt.title("Violin Plot")
 plt.show()
 
 ```
+
 <img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/ec43f583-c5d8-467c-a21c-56898a34a0c0" />
 
 ```
@@ -153,6 +165,7 @@ sns.violinplot(
 plt.title("Violin Plot - Tips")
 plt.show()
 ```
+
 <img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/444174a5-4055-44c7-8799-c692bae20261" />
 
 ```
@@ -167,6 +180,7 @@ plt.title("KDE Plot")
 plt.show()
 
 ```
+
 <img width="585" height="453" alt="download" src="https://github.com/user-attachments/assets/ff836416-b423-49c9-93c2-18fe444bbae1" />
 
 ```
@@ -179,6 +193,7 @@ sns.kdeplot(
 plt.title("Bivariate KDE Plot")
 plt.show()
 ```
+
 <img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/a16d2ed6-9f30-4f9e-af32-baee239ba100" />
 
 ```
@@ -194,6 +209,7 @@ plt.title("Heat Map")
 plt.show()
 
 ```
+
 <img width="511" height="433" alt="download" src="https://github.com/user-attachments/assets/144c870e-2bfa-4f48-9028-45d1d155f302" />
 
 ```
